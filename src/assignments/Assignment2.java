@@ -7,6 +7,8 @@ public class Assignment2 {
 		
 		 // 3D Array: [Semester][Subject/Marks][Values]
 
+		
+		
 		        String[][][] studentdata = {
 		                { // Semester 1
 		                        {"Mathematics I", "Physics", "Chemistry", "Computer Programming", "Engineering Drawing", "Basic Electrical Eng."},
@@ -39,6 +41,9 @@ public class Assignment2 {
 		        System.out.println("Semester 5, Subject 6 Marks: " + studentdata[4][1][5]); // Computer Graphics - Pass(90)	
 
 
+		
+
+		
 	}
 
 }
