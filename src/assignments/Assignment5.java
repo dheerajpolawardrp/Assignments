@@ -153,7 +153,7 @@ public class Assignment5 {
 //so to get the details from the product we need to fetch this from tables and store into the variable	   
 	
 	List<Map<String, String>> products = alltables.get(productdetailstable);
-	System.out.println(products);
+	System.out.println(products); //Getting null value
 	}
 
 }
