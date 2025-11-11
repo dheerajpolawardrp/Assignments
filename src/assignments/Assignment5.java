@@ -136,7 +136,7 @@ public class Assignment5 {
 	   row9.put("Expiry Date", "Jan 2027");
 	   
 //Accumulating all the rows into the single table:
-	   List<Map<String, String>> productdetailstable = new ArrayList();
+	   List<Map<String, String>> productdetailstable = new ArrayList<>();
 	   productdetailstable.add(row7);
 	   productdetailstable.add(row8);
 	   productdetailstable.add(row9);
