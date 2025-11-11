@@ -152,8 +152,8 @@ public class Assignment5 {
 	   
 //so to get the details from the product we need to fetch this from tables and store into the variable	   
 	
-	List<Map<String, String>> products = alltables.get(productdetailstable);
-	System.out.println(products); //Getting null value
+	//Map<String<List<Map<String, String>>>> products = alltables.get("productdetailstable").get(1).get("Supplier");
+	System.out.println(alltables.get("ProductDetailsTable").get(1).get("Supplier")); //Getting null value
 	}
 
 }
