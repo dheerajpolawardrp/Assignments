@@ -18,7 +18,8 @@ public class ForEachLoop {
 		empnames[2] = "Tejas";
 
 //pre-defined list means any collection of data		
-		/// Print each value using for-each loop
+		
+		// Print each value using for-each loop
 		for (String names : empnames) {
 
 			System.out.println(names);
