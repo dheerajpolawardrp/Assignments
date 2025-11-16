@@ -9,18 +9,18 @@ public class Assignment6 {
 		students */		
 		
 	String [] studentname = {"Suresh","Mahesh","Naresh"}; 	
-	int [] studentmarkds =  {75, 80, 82};
+	int [] studentmarks =  {75, 80, 82};
 	
 	//to increase the value of each student by 10
-	int Marks1 = studentmarkds[0]+=10;
-	int Marks2 = studentmarkds[1]+=10;
-	int  Marks3 = studentmarkds[2]+=10;
+	int Marks1 = studentmarks[0]+=10;
+	int Marks2 = studentmarks[1]+=10;
+	int  Marks3 = studentmarks[2]+=10;
 	
 	System.out.println(Marks1);
 	System.out.println(Marks2);
 	System.out.println(Marks3);
 	
-	int [] increasedmarks = { Marks1,Marks2,Marks3 };
+	int [] increasedmarks = { Marks1,Marks2,Marks3 };//stored in array
 	
 	double average = ((Marks1+Marks2+Marks3)/3);
 	
