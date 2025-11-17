@@ -4,6 +4,7 @@ public class Assignments7ConditionalStatements {
 
 	public static void main(String[] args) {
 
+		String customername = "John Doe";
 		int creditscore = 720;
 		int income = 55000;
 		boolean isEmployed = true;
@@ -15,7 +16,7 @@ public class Assignments7ConditionalStatements {
 
 		} else if (creditscore >= 650 && creditscore <= 750) {
 
-			System.out.println("Additional checks needs to be performed");
+			System.out.println("Additional checks needs to be performed for the customer " +  customername);
 
 			if (income < 50000) {
 				System.out.println("Loan is denied to due to low incom");
@@ -29,7 +30,7 @@ public class Assignments7ConditionalStatements {
 				System.out.println("Additional checks are not passed and loan is not approved");
 
 			} else {
-				System.out.println("Additional checks are passed and loan is approved");
+				System.out.println("Additional checks are passed and loan is approved for the customer " +  customername);
 			}
 
 		}
